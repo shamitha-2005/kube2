@@ -5,7 +5,7 @@ pipeline{
        steps{
          script{
            bat 'docker build -t getting-started-app .'
-           
+           bat 'docker push getting-started-app'
          }
        }
      }
